@@ -1,0 +1,34 @@
+$(document).ready(function(){
+  $(".slidingDiv").hide();
+  $('#butt1').hover(function(){
+    $("#slidingDiv1").slideToggle();
+  });
+  $('#butt2').hover(function(){
+    $("#slidingDiv2").slideToggle();
+  });
+  $('#butt3').hover(function(){
+    $("#slidingDiv3").slideToggle();
+  });
+
+    $(".cont1").animate({
+      left: '50%',
+  })
+  $(".toggle1").hide();
+  $(".butt").click(function(){
+    $(".toggle1").slideToggle();
+  })
+  $('#lang').hide();
+  $('#word').hide();
+  $('#doit').hide();
+  $('#trans').click(function(){
+    $('#word').slideToggle();
+    $('#lang').slideToggle();
+    $('#doit').slideToggle();
+  })
+  $('#lang1').hide();
+  $('#doit1').hide();
+  $('#mean').click(function(){
+    $('#lang1').slideToggle();
+    $('#doit1').slideToggle();
+  })
+})
