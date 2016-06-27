@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+body  {
+  overflow-x: hidden;
+}
+
+header {
+  width: 100vw;
+  height: 42px;
+  position: fixed;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, .5);
+}
+
+#first {
+  position: relative;
+  background: black;
+  width: 100%;
+
+}
+
+#kids {
+  width: 1300px;
+  opacity: 0.5;
+  z-index: -1;
+  position: absolute;
+}
+
+h1 {
+  text-align: left;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-left: 10px;
+  color: grey;
+  z-index: 1;
+  float: left;
+  display: inline-block;
+}
+
+#logo {
+  display: inline-block;
+  float: left;
+  width: 50px;
+}
+.cont {
+  display: block;
+  position: absolute;
+}
+
+.aside {
+  display: inline-block;
+  float: left;
+  width: 50vw;
+  height: 90vh;
+  z-index: 1;
+  padding-top: 120px;
+  padding-left: 10%;
+}
+
+.btn {
+  width: 250px;
+  height: 50px;
+  display: block;
+  margin-bottom: 50px;
+  background: #D56200;
+  color: white;
+  font-size: 20px;
+}
+
+.slidingDiv {
+  height:120px;
+  width: 30vw;
+  margin: -45px 0px 10px 0px;
+  background-color: white;
+  border-top:5px solid #D56200;
+  border-bottom:5px solid #D56200;
+  overflow: hidden;
+  color: grey;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
